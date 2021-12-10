@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin-top: 50vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(16, 121, 156);
+    border-radius: 50px;
+    padding: 10px;
+}
+.circle1{
+    width: 50px;
+    height: 50px;
+    border: 4px solid  rgb(82, 79, 79);
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.5s ease;
+   
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    border: 4px solid  rgb(82, 79, 79);
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+.circle3{
+    width: 50px;
+    height: 50px;
+    border: 4px solid  rgb(82, 79, 79);
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+.leg1{
+    border: 2px solid  rgb(82, 79, 79);
+    width: 90px;
+    background-color:  rgb(82, 79, 79);
+    height: 3px;
+    margin-top: 21px;
+
+    transition: 0.5s ease;
+} 
+.leg2{
+    border: 2px solid  rgb(82, 79, 79);
+    width: 90px;
+    background-color:  rgb(82, 79, 79);
+    height: 3px;
+    margin-top: 21px;
+    transition: 0.5s ease;
+} 
+.leg3{
+    border: 2px solid  rgb(82, 79, 79);
+    width: 90px;
+    background-color:  rgb(82, 79, 79);
+    height: 3px;
+    margin-top: 21px;
+    transition: 0.5s ease;
+} 
+p{
+    margin-top: 2px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 20px;
+}
+button{
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.next{
+    background-color: rgb(16, 121, 156);
+    
+}
+.prev{
+    background-color: rgb(82, 79, 79);
+}
